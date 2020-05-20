@@ -36,7 +36,7 @@ commented=[]
 for com_csv in o_csv:
 	x=re.search("commented",com_csv)
 	if x is not None:
-		commented.append(app_csv)
+		commented.append(com_csv)
 
 temp=[]
 for csv_app in approved:
